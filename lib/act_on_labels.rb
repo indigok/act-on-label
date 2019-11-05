@@ -4,3 +4,5 @@ if ENV["GITHUB_EVENT_NAME"] == "pull_request"
   if payload["action"] == "labeled" 
     intersection = ENV["LABELS"] & payload.labels
     exit(false) if intersection.empty?
+  end
+end
