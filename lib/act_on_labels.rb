@@ -7,6 +7,6 @@ if ENV["GITHUB_EVENT_NAME"] == "pull_request"
 
   if payload["action"] == "labeled" 
     puts payload["label"]
-    exit(false) unless payload["label"]["name"] == ENV["LABELS"]} 
+    exit(false) unless payload["label"]["name"] == ENV["LABELS"]
   end
 end
