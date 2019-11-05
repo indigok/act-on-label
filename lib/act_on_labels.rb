@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 if ENV["GITHUB_EVENT_NAME"] == "pull_request"
   payload = JSON.parse(File.read(ENV["GITHUB_EVENT_PATH"]))
 
