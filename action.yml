@@ -1,6 +1,6 @@
 name: 'Act on Label'
-description: 'Create a release on your repository'
-author: 'GitHub'
+description: 'Act on a specific label'
+author: 'hmharvey'
 inputs:
   labels:
     description: 'Labels to be acted on'
