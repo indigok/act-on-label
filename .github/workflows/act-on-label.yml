@@ -1,0 +1,13 @@
+name: Act on Label
+on:
+  pull_request:
+    types: labeled
+    branches:
+    - master
+jobs:
+  act-on-label:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: hmharvey/act-on-label@master
+      with:
+        labels: 'some-label'
