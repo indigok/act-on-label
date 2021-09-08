@@ -1,4 +1,4 @@
-name: 'Act on Label'
+name: 'Act on a Label'
 description: 'Act on a specific label'
 author: 'hmharvey'
 inputs:
